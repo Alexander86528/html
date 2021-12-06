@@ -8,3 +8,7 @@ h1{
 h4{
   background: yellow;
 }
+
+div > p{
+  color:rgb(25, 55, 109);
+}
