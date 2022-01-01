@@ -1,0 +1,23 @@
+
+a:link{
+  color: rgb(16, 16, 83);
+  border-bottom: 1px dashed;
+}
+a:visited{
+  color: rgb(58, 12, 102);
+}
+a:hover{
+  color: rgb(6, 66, 66);
+  border-bottom: .07em solid;
+}
+a:active{
+  color: rgb(17, 80, 17);
+  border-bottom: 1px dashed;
+}
+
+h2 a{
+  text-decoration: none;
+}
+h2 a:hover{
+  text-decoration: underline;
+}
