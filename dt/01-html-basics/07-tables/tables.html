@@ -1,1 +1,301 @@
- 
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Таблицы</title>
+</head>
+<body>
+  <h1>Tables</h1>
+
+  <h2 id="working-with-tables">Работа с таблицами в html</h2>
+  <ol>
+    <li><a href="#working-with-tables">working with tables</a></li>
+    <li><a href="#example-1">example 1</a></li>
+    <li><a href="#task-1">task 1</a></li>
+    <li><a href="#width-and-height">width and height</a></li>
+    <li><a href="#example-2">example 2</a></li>
+    <li><a href="#task-2">task 2</a></li>
+    <li><a href="#header-cells">header cells</a></li>
+    <li><a href="#example-3">example 3</a></li>
+    <li><a href="#task-3">task 3</a></li>
+  </ol>
+
+  <p>
+    Сейчас мы с вами научимся делать таблицы на HTML. Я думаю, вы представляете, что такое таблица в обычной жизни - это набор строк и столбцов, на пересечении которых находятся ячейки.
+  </p>
+  <p>
+    В HTML таблицы создаются по похожему принципу. Там тоже есть столбцы и строки с ячейками, однако HTML код таблиц при первом взгляде может показаться непривычным: таблицы создаются по рядам - сначала первый ряд, потом второй и так далее.
+  </p>
+  <p>
+    Код таблицы имеет жесткую структуру: главным является тег <strong>table</strong>, внутри которого должны лежать теги <strong>tr</strong>, которые создают ряды таблицы, а внутри них - теги <strong>td</strong>, которые создают ячейки. Тег <strong>table</strong> может иметь атрибут <strong><em>border</em></strong>, который задает границу таблице и ее ячейкам.
+  </p>
+
+  <h2 id="example-1">example 1</h2>
+  <p>
+    Давайте для примера сделаем таблицу с тремя рядами и тремя ячейками в каждом ряду:
+  </p>
+  <pre>
+    &lt;table border="1"&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Ячейка 1&lt;/td&gt;
+        &lt;td&gt;Ячейка 2&lt;/td&gt;
+        &lt;td&gt;Ячейка 3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Ячейка 4&lt;/td&gt;
+        &lt;td&gt;Ячейка 5&lt;/td&gt;
+        &lt;td&gt;Ячейка 6&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Ячейка 7&lt;/td&gt;
+        &lt;td&gt;Ячейка 8&lt;/td&gt;
+        &lt;td&gt;Ячейка 9&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  </pre>
+  <p>
+    Результат выполнения кода:
+  </p>
+  <table border="1">
+    <tr>
+      <td>Ячейка 1</td>
+      <td>Ячейка 2</td>
+      <td>Ячейка 3</td>
+    </tr>
+    <tr>
+      <td>Ячейка 4</td>
+      <td>Ячейка 5</td>
+      <td>Ячейка 6</td>
+    </tr>
+    <tr>
+      <td>Ячейка 7</td>
+      <td>Ячейка 8</td>
+      <td>Ячейка 9</td>
+    </tr>
+  </table>
+
+  <h2 id="task-1">task 1</h2>
+  <table border="1">
+    <tr>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>a</td>
+      <td>b</td>
+      <td>c</td>
+      <td>d</td>
+      <td>e</td>
+    </tr>
+  </table>
+
+  <h2 id="width-and-height">Ширина и высота таблицы</h2>
+  <p>
+    С помощью атрибутов width и height можно задать ширину и высоту таблице. Зададим, например, нашей таблице ширину в 300 пикселей, а высоту - в 100:
+  </p>
+  <h2 id="example-2">example 2</h2>
+  <pre>
+    &lt;table border="1" width="300" height="200"&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Ячейка 1&lt;/td&gt;
+        &lt;td&gt;Ячейка 2&lt;/td&gt;
+        &lt;td&gt;Ячейка 3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Ячейка 4&lt;/td&gt;
+        &lt;td&gt;Ячейка 5&lt;/td&gt;
+        &lt;td&gt;Ячейка 6&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Ячейка 7&lt;/td&gt;
+        &lt;td&gt;Ячейка 8&lt;/td&gt;
+        &lt;td&gt;Ячейка 9&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  </pre>
+  <p>
+    Результат выполнения кода:
+  </p>
+  <table border="1" width="300" height="100">
+    <tr>
+      <td>Ячейка 1</td>
+      <td>Ячейка 2</td>
+      <td>Ячейка 3</td>
+    </tr>
+    <tr>
+      <td>Ячейка 4</td>
+      <td>Ячейка 5</td>
+      <td>Ячейка 6</td>
+    </tr>
+    <tr>
+      <td>Ячейка 7</td>
+      <td>Ячейка 8</td>
+      <td>Ячейка 9</td>
+    </tr>
+  </table>
+
+  <h2 id="task-2">Task 2</h2>
+  <p>
+    Добавьте вашей таблице ширину 400 пикселей и высоту 300.
+  </p>
+  <table border="1" width="400" height="300">
+    <tr>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>a</td>
+      <td>b</td>
+      <td>c</td>
+      <td>d</td>
+      <td>e</td>
+    </tr>
+  </table>
+
+  <h2 id="header-cells">Ячейки-заголовки таблиц</h2>
+  <p>
+    Кроме тегов td существуют также теги <strong><em>th</em></strong>, которые также создают ячейки. Но это уже будут не обычные ячейки, а <strong><em>ячейки-заголовки</em></strong>, которые указывают, что находится в данном столбце (или строке) таблицы. По умолчанию текст в таких ячейках th будет жирный и расположен по центру.
+  </p>
+  <h2 id="example-3">example 3</h2>
+  <p>
+    Давайте посмотрим на примере. Пусть у нас есть вот такая таблица с работниками:
+  </p>
+  <pre>
+    &lt;table border="1" width="300"&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Иван&lt;/td&gt;
+        &lt;td&gt;Иванов&lt;/td&gt;
+        &lt;td&gt;200$&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Пётр&lt;/td&gt;
+        &lt;td&gt;Петров&lt;/td&gt;
+        &lt;td&gt;300$&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Николай&lt;/td&gt;
+        &lt;td&gt;Николаев&lt;/td&gt;
+        &lt;td&gt;400$&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  </pre>
+  <p>
+    Результат выполнения кода:
+  </p>
+  <table border="1" width="300">
+    <tr>
+      <td>Иван</td>
+      <td>Иванов</td>
+      <td>200$</td>
+    </tr>
+    <tr>
+      <td>Пётр</td>
+      <td>Петров</td>
+      <td>300$</td>
+    </tr>
+    <tr>
+      <td>Николай</td>
+      <td>Николаев</td>
+      <td>400$</td>
+    </tr>
+  </table>
+  <p>
+    Как вы видите, в первом столбце хранится имя работника, во втором столбце - фамилия, а в третьем - зарплата. Давайте сделаем еще один ряд в начале таблице, в котором разместим заголовки колонок в тегах <strong><em>th</em></strong>.
+  </p>
+  <pre>
+    &lt;table border="1" width="300"&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Имя&lt;/th&gt;
+        &lt;th&gt;Фамилия&lt;/th&gt;
+        &lt;th&gt;Зарплата&lt;/th&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Иван&lt;/td&gt;
+        &lt;td&gt;Иванов&lt;/td&gt;
+        &lt;td&gt;200$&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Пётр&lt;/td&gt;
+        &lt;td&gt;Петров&lt;/td&gt;
+        &lt;td&gt;300$&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Николай&lt;/td&gt;
+        &lt;td&gt;Николаев&lt;/td&gt;
+        &lt;td&gt;400$&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  </pre>
+  <p>
+    Результат выполнения кода:
+  </p>
+  <table border="1" width="300">
+    <tr>
+      <th>Имя</th>
+      <th>Фамилия</th>
+      <th>Зарплата</th>
+    </tr>
+    <tr>
+      <td>Иван</td>
+      <td>Иванов</td>
+      <td>200$</td>
+    </tr>
+    <tr>
+      <td>Пётр</td>
+      <td>Петров</td>
+      <td>300$</td>
+    </tr>
+    <tr>
+      <td>Николай</td>
+      <td>Николаев</td>
+      <td>400$</td>
+    </tr>
+  </table>
+  <h2 id="task-3">Task 3</h2>
+  <table border="1" width="400">
+    <tr>
+      <th>Продукт</th>
+      <th>Цена</th>
+      <th>Количество</th>
+    </tr>
+    <tr>
+      <td>Яблоки</td>
+      <td>100</td>
+      <td>5kg</td>
+    </tr>
+    <tr>
+      <td>Апельсины</td>
+      <td>200</td>
+      <td>6kg</td>
+    </tr>
+    <tr>
+      <td>Бананы</td>
+      <td>300</td>
+      <td>7kg</td>
+    </tr>
+  </table>
+  <h2><a href="../index.html">html basic</a></h2>
+</body>
+</html>

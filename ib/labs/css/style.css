@@ -1,0 +1,36 @@
+body {
+  background: rgb(232, 252, 252);
+  color: rgb(17, 16, 109);
+}
+h1{
+  color: deeppink;
+}
+h2{
+  color: blue;
+}
+h3{
+  color: blueviolet;
+}
+body a{
+  color: brown;
+}
+/*
+nav a:link{
+  color:rgb(16, 42, 99);
+}
+nav a:visited{
+  color: rgb(13, 82, 13);
+}
+nav a:hover{
+  color: maroon;
+}
+nav a:active{
+  color: yellow;
+}
+*/
+nav a{
+  color: green;
+}
+article p:first-of-type:first-letter{
+  color: red;
+}
