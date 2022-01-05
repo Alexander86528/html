@@ -1,0 +1,20 @@
+h1 {
+  text-align: right;
+}
+h2 {
+  width: 300px;
+  text-align: center;
+  font-style: italic;
+}
+td {
+  width: 500px;
+  text-align: center;
+}
+th {
+  text-align: left;
+}
+p {
+  width: 300px;
+  text-align: justify;
+  text-indent: 20px;
+}
