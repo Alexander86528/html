@@ -44,16 +44,16 @@ p {
   line-height: 140%;
   text-indent: 20px;
 }
-
+div{
+  text-align: center;
+}
 article p:first-of-type:first-letter{
   color: red;
 }
 p.review-mail{
   text-align: right;
 }
-p.courses{
-  text-align: center;
-}
+
 hr {
   border: none;
   height: 5px;
