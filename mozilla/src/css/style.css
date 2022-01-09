@@ -1,6 +1,16 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
 h1{
+  font-family: 'DM Serif Text', serif;
+  
   text-align: center;
 }
+h3{
+  font-family: 'Ubuntu Mono', monospace;
+  font-style: italic;
+}
+
 a:link{
   color: rgb(16, 16, 83);
   /*
