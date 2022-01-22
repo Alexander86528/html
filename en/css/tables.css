@@ -1,0 +1,21 @@
+
+table{
+  /* Границы таблицы */
+  /* border: 2px solid red; */
+  /* сделает ширину таблицы равной ширине блока контейнера, в котором она находится */
+  width: 90%;
+  /* задаст фиксированную ширину для таблицы */
+  /* width: 800px; */
+  border-collapse: collapse;
+}
+
+th{
+  /* Границы ячеек th */
+  border: 8px double green;
+  color: brown;
+}
+
+td{
+  /* Границы ячеек td */
+  border: 2px blue dashed;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/tables.css">
+  <title>Tables (EN)</title>
+</head>
+<body>
+
+  <h2>Как создать таблицу</h2>
+  <table>
+    <caption>Подпись к таблице</caption>
+    <tr><th>Текст заголовка таблицы</th><th>Текст заголовка таблицы</th></tr>
+    <tr><td>Ячейка таблицы</td><td>Ячейка таблицы</td></tr>
+  </table>
+
+  <h2>Группирование строк и столбцов таблицы(colgroup и col)</h2>
+  <table>
+    <caption>Пример colgroup и col</caption>
+    <colgroup>
+      <col span="2" style="background: khaki;">
+      <col style="background-color: lightcyan;">
+    </colgroup>
+    <tr><th>№ п/п</th><th>Наименование</th><th>Цена, руб.</th></tr>
+    <tr><td>1</td><td>Карандаш</td><td>20,00</td></tr>
+    <tr><td>2</td><td>Линейка</td><td>30,00</td></tr>
+  </table>
+
+  <h2>Объеденение ячеек таблицы</h2>
+  <table>
+    <caption>Как объединить ячейки таблицы</caption>
+    <tr><th>№ п/п</th><th>Наименование товара</th><th>ед. изм.</th><th>Количество</th><th>Цена за ед.</th><th>Стоимость</th></tr>
+    <tr><td>1</td><td>Томаты</td><td>кг</td><td>15,20</td><td>69,00</td><td>1048,80</td></tr>
+    <tr><td>2</td><td>Огурцы</td><td>кг</td><td>2,50</td><td>48,00</td><td>120,00</td></tr>
+    <tr><td colspan="5" style="text-align: right;">ИТОГО:</td><td>1168,80</td></tr>
+  </table>
+  
+</body>
+</html>
