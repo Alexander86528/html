@@ -4,25 +4,20 @@ body {
   background: rgb(232, 252, 252);
   color: rgb(17, 16, 109);
 }
-h1{
+h1, h2, h3, h4 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
+}
+h1{
   color: red;
 }
 h2{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-align: center;
   color: blue;
 }
 h3{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-align: center;
   color: blueviolet;
 }
-h4{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-align: center;
-}
+
 body a{
   color: brown;
 }
@@ -38,6 +33,9 @@ nav a:hover{
 }
 nav a:active{
   color: yellowgreen;
+}
+nav ul{
+  list-style-type: none;
 }
 
 p {

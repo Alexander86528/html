@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Межстрочный интервал на CSS</title>
+  <style>
+    p.first{
+      font-size: 20px;
+      line-height: 50px;
+      text-align: justify;
+      width: 1000px;
+    }
+    p.second{
+      font-size: 30px;
+      line-height: 45px;
+      width: 1000px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Межстрочный интервал на CSS</h1>
+  <p class="first">
+  Давайте теперь научимся задавать межстрочный интервал тексту. Под межстрочным интервалом подразумевается расстояние между линиями текста, то есть белый промежуток между ними. Для этого предназначено свойство line-height, задающее высоту линии текста.<br>
+  При использовании свойства line-height вас может ожидать некоторый подвох: это свойство не задает промежуток между строками текста, как могло бы показаться, а задает высоту линии текста.<br>
+  Это значит, что реальный видимый промежуток между строками будет вычисляться так: line-height - font-size = видимое расстояние между строками текста.<br>
+  В следующем примере расстояние между строками текста будет 50px - 20px = 30px:
+  </p>
+  <h2>task 1</h2>
+  <p class="second">
+    Пусть размер шрифта для абзацев равен 30px. Установите свойство line-height так, чтобы видимый белый промежуток между абзацами был равен 15px.
+  </p>
+  
+  <a href="http://code.mu/ru/markup/book/prime/css/line-height/">Закончил: Значение line-height без единиц</a>
+</body>
+</html>

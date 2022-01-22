@@ -1,9 +1,38 @@
 ﻿<!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Демонстрация: таблицы</title>
-	</head>
-	<body>
-		
-	</body>
+<head>
+   <title>Демонстрация: таблицы</title>
+   <style>
+     table{
+       /* text-align: center; */
+       border: 5px solid rgb(192, 181, 23);
+       width: 80%;
+       border-spacing: 0px;
+       /* border-collapse: collapse; */
+       caption-side: bottom;
+     }
+     td, th{
+       border: 3px solid rgb(32, 13, 114);
+       padding: 5px;
+       empty-cells: hide;
+     }
+   </style>
+</head>
+<body>
+  <table>
+    <caption>Моя таблица</caption>
+    <tr>
+      <th>h-1</th><th>h-2</th><th>h-3</th>
+    </tr>
+    <tr>
+      <td rowspan="3">1</td><td>2</td><td>3</td>
+    </tr>
+    <tr>
+      <td colspan="2">5</td>
+    </tr>
+    <tr>
+      <td>8</td><td>9</td>
+    </tr>
+  </table>
+</body>
 </html>

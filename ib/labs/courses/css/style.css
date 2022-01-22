@@ -1,0 +1,28 @@
+table{
+  border-collapse: collapse;
+  width: 70%;
+}
+caption{
+  font-size: x-large;
+  /* font-weight: 100; */
+}
+thead{
+  text-align: center;
+  background: black;
+  color: whitesmoke;
+}
+tfoot{
+  font-weight: bold;
+  text-align: right;
+  background: rgb(151, 151, 151);
+}
+th{
+  padding: 3px;
+  padding-right: 30px;
+}
+.time{
+  text-align: right;
+}
+tbody tr:nth-child(odd){
+  background: silver;
+}

@@ -1,45 +1,64 @@
 body{
   font-family: 'Ubuntu', sans-serif;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #f8f0ff;
+  padding: 0 20px 20px 20px;
+  border: 3px solid #8800ff;
 }
+
 h1{
   font-family: 'DM Serif Text', serif;
-  
-  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #420f72;
+  text-shadow: 3px 3px 1px rgb(156, 198, 226);
+  /* text-align: center; */
 }
+/*
 h3{
   font-family: 'Ubuntu Mono', monospace;
   font-style: italic;
 }
-
-a:link{
-  color: rgb(16, 16, 83);
-  /*
-  border-bottom: 1px dashed;
-  */
-}
-a:visited{
-  color: rgb(40, 21, 216);
-}
-a:hover{
-  color: rgb(6, 66, 66);
-  /*
-  border-bottom: .07em solid;
-  */
-}
-a:active{
-  color: yellowgreen;
-  /*
-  border-bottom: 1px dashed;
-  */
-}
-
+*/
 h2 a{
   text-decoration: none;
 }
 h2 a:hover{
   text-decoration: underline;
 }
+/*
+a:link{
+  color: rgb(16, 16, 83);
+}
+a:visited{
+  color: rgb(40, 21, 216);
+}
+a:hover{
+  color: rgb(6, 66, 66);
+}
+a:active{
+  color: yellowgreen;
+}
+*/
+hr{
+  border: none;
+  height: 3px;
+  width: 90%;
+  background-color: #8800ff;
+}
 
 p.color-red{
   color: red;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+strong{
+  font-family: 'Ubuntu Mono', monospace;
+  font-style: italic;
+}
+img.attribute-png{
+  width: 1000px;
 }
