@@ -1,0 +1,19 @@
+table, p, h1{
+  width: 60%;
+  margin: 0 auto;
+}
+th{
+  font-weight: normal;
+  border-bottom: 1px solid #6678b1;
+  border-right: 30px solid white;
+  border-left: 30px solid white;
+  color: #039;
+  padding: 12px 2px;
+}
+td{
+  text-align: center;
+  border-right: 30px solid white;
+  border-left: 30px solid white;
+  color: #669;
+  padding: 12px 2px;
+}
