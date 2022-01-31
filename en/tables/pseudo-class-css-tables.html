@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Оформление таблицы с помощью псевдоклассов (EN)</title>
+  <link rel="stylesheet" href="../css/pseudo-class-css-tables.css">
+</head>
+<body>
+  <h1><a href="https://html5book.ru/oformlenie-tablicy-psevdoklassami/" title="site html5book.ru">Оформление таблицы с помощью псевдоклассов (EN)</a></h1>
+  
+  <h2>1. Первая строка таблицы</h2>
+  <table class="the-first-table">
+    <caption>th {background: gray}</caption>
+    <tr><th>Company</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th></tr>
+    <tr><td>Microsoft</td><td>20.3</td><td>30.5</td><td>23.5</td><td>40.3</td></tr>
+    <tr><td>Google</td><td>50.2</td><td>40.63</td><td>45.23</td><td>39.3</td></tr>
+    <tr><td>Apple</td><td>25.4</td><td>30.2</td><td>33.3</td><td>36.7</td></tr>
+  </table>
+
+  <h2>2. Последняя строка таблицы</h2>
+  <table class="the-second-table">
+    <caption>tr:last-child {background: gray;}</caption>
+    <tr><th>Company</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th></tr>
+    <tr><td>Microsoft</td><td>20.3</td><td>30.5</td><td>23.5</td><td>40.3</td></tr>
+    <tr><td>Google</td><td>50.2</td><td>40.63</td><td>45.23</td><td>39.3</td></tr>
+    <tr><td>Apple</td><td>25.4</td><td>30.2</td><td>33.3</td><td>36.7</td></tr>
+  </table>
+
+  <h2>3. Третья строка таблицы</h2>
+  <table class="the-third-table">
+    <caption>tr:nth-child(3){background: gray;}</caption>
+    <tr><th>Company</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th></tr>
+    <tr><td>Microsoft</td><td>20.3</td><td>30.5</td><td>23.5</td><td>40.3</td></tr>
+    <tr><td>Google</td><td>50.2</td><td>40.63</td><td>45.23</td><td>39.3</td></tr>
+    <tr><td>Apple</td><td>25.4</td><td>30.2</td><td>33.3</td><td>36.7</td></tr>
+  </table>
+
+  <h2>4. Зебра(чётные строки)</h2>
+  <table class="the-fourth-table">
+    <caption>tr:nth-child(even){background: gray;}</caption>
+    <tr><th>Company</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th></tr>
+    <tr><td>Microsoft</td><td>20.3</td><td>30.5</td><td>23.5</td><td>40.3</td></tr>
+    <tr><td>Google</td><td>50.2</td><td>40.63</td><td>45.23</td><td>39.3</td></tr>
+    <tr><td>Apple</td><td>25.4</td><td>30.2</td><td>33.3</td><td>36.7</td></tr>
+  </table>
+
+  <h2>5. Зебра(нечётные строки)</h2>
+  <table class="the-fifth-table">
+    <caption>tr:nth-child(odd){background: gray;}</caption>
+    <tr><th>Company</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th></tr>
+    <tr><td>Microsoft</td><td>20.3</td><td>30.5</td><td>23.5</td><td>40.3</td></tr>
+    <tr><td>Google</td><td>50.2</td><td>40.63</td><td>45.23</td><td>39.3</td></tr>
+    <tr><td>Apple</td><td>25.4</td><td>30.2</td><td>33.3</td><td>36.7</td></tr>
+  </table>
+
+  <h2>6. Первая ячейка первой строки таблицы</h2>
+  <table class="the-sixth-table">
+    <caption>th:first-child{background: gray;}</caption>
+    <tr><th>Company</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th></tr>
+    <tr><td>Microsoft</td><td>20.3</td><td>30.5</td><td>23.5</td><td>40.3</td></tr>
+    <tr><td>Google</td><td>50.2</td><td>40.63</td><td>45.23</td><td>39.3</td></tr>
+    <tr><td>Apple</td><td>25.4</td><td>30.2</td><td>33.3</td><td>36.7</td></tr>
+  </table>
+  <h2>7. Последняя ячейка первой строки таблицы</h2>
+  <table class="seventh-table">
+    <caption>th:last-child{background: gray;}</caption>
+    <tr><th>Company</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th></tr>
+    <tr><td>Microsoft</td><td>20.3</td><td>30.5</td><td>23.5</td><td>40.3</td></tr>
+    <tr><td>Google</td><td>50.2</td><td>40.63</td><td>45.23</td><td>39.3</td></tr>
+    <tr><td>Apple</td><td>25.4</td><td>30.2</td><td>33.3</td><td>36.7</td></tr>
+  </table>
+  <h2>8. Первая ячейка последней строки таблицы</h2>
+  <table class="eighth-table">
+    <caption>tr:last-child td:first-child{background: gray;}</caption>
+    <tr><th>Company</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th></tr>
+    <tr><td>Microsoft</td><td>20.3</td><td>30.5</td><td>23.5</td><td>40.3</td></tr>
+    <tr><td>Google</td><td>50.2</td><td>40.63</td><td>45.23</td><td>39.3</td></tr>
+    <tr><td>Apple</td><td>25.4</td><td>30.2</td><td>33.3</td><td>36.7</td></tr>
+  </table>
+  <h2>9. Последняя ячейка последней строки таблицы</h2>
+  <table class="the-ninth-table">
+    <caption>tr:last-child td:last-child{background: gray;}</caption>
+    <tr><th>Company</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th></tr>
+    <tr><td>Microsoft</td><td>20.3</td><td>30.5</td><td>23.5</td><td>40.3</td></tr>
+    <tr><td>Google</td><td>50.2</td><td>40.63</td><td>45.23</td><td>39.3</td></tr>
+    <tr><td>Apple</td><td>25.4</td><td>30.2</td><td>33.3</td><td>36.7</td></tr>
+  </table>
+
+  <h2>10. Третья ячейка третьей строки таблицы</h2>
+  <table class="the-tenth-table">
+    <caption>tr:nth-child(3) td:nth-child(3){background: gray;}</caption>
+    <tr><th>Company</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th></tr>
+    <tr><td>Microsoft</td><td>20.3</td><td>30.5</td><td>23.5</td><td>40.3</td></tr>
+    <tr><td>Google</td><td>50.2</td><td>40.63</td><td>45.23</td><td>39.3</td></tr>
+    <tr><td>Apple</td><td>25.4</td><td>30.2</td><td>33.3</td><td>36.7</td></tr>
+  </table>
+  <h2>11. Первый столбец таблицы</h2>
+  <table class="the-eleventh-table">
+    <caption>th:first-child, td:first-child</caption>
+    <tr><th>Company</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th></tr>
+    <tr><td>Microsoft</td><td>20.3</td><td>30.5</td><td>23.5</td><td>40.3</td></tr>
+    <tr><td>Google</td><td>50.2</td><td>40.63</td><td>45.23</td><td>39.3</td></tr>
+    <tr><td>Apple</td><td>25.4</td><td>30.2</td><td>33.3</td><td>36.7</td></tr>
+  </table>
+  <h2>12. Третий столбец таблицы</h2>
+  <table class="the-twelfth-table">
+    <caption>th:nth-child(3), td:nth-child(3){background: gray;}</caption>
+    <tr><th>Company</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th></tr>
+    <tr><td>Microsoft</td><td>20.3</td><td>30.5</td><td>23.5</td><td>40.3</td></tr>
+    <tr><td>Google</td><td>50.2</td><td>40.63</td><td>45.23</td><td>39.3</td></tr>
+    <tr><td>Apple</td><td>25.4</td><td>30.2</td><td>33.3</td><td>36.7</td></tr>
+  </table>
+ <h2>13. Последний столбец таблицы</h2>
+  <table class="the-thirteenth-table">
+    <caption>th:last-child, td:last-child{background: gray;}</caption>
+    <tr><th>Company</th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th></tr>
+    <tr><td>Microsoft</td><td>20.3</td><td>30.5</td><td>23.5</td><td>40.3</td></tr>
+    <tr><td>Google</td><td>50.2</td><td>40.63</td><td>45.23</td><td>39.3</td></tr>
+    <tr><td>Apple</td><td>25.4</td><td>30.2</td><td>33.3</td><td>36.7</td></tr>
+  </table>
+
+</body>
+</html>

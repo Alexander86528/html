@@ -1,0 +1,69 @@
+table{
+  border-collapse: collapse;
+  border: 2px solid gray;
+  width: 50%;
+  margin: 0 auto;
+}
+h1, h2{
+  text-align: center;
+  color: rgb(158, 0, 0);
+}
+a{
+  /* Удаление подчеркивания */
+  text-decoration: none;
+}
+a:hover{
+  /* :hover — любой элемент, по которому проводят курсором мыши; */
+  /* Добавление подчеркивания только при наведении на ссылку */
+  text-decoration: underline;
+}
+caption{
+  font-style: oblique;
+  color: blue;
+}
+th{
+  border-bottom: 1px solid gray;
+}
+td{
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+.the-first-table th{
+  background: gray;
+}
+.the-second-table tr:last-child{
+  background: gray;
+}
+.the-third-table tr:nth-child(3){
+  background: gray;
+}
+.the-fourth-table tr:nth-child(even){
+  background: gray;
+}
+.the-fifth-table tr:nth-child(odd){
+  background: gray;
+}
+.the-sixth-table th:first-child{
+  background: gray;
+}
+.seventh-table th:last-child{
+  background: gray;
+}
+.eighth-table tr:last-child td:first-child{
+  background: gray;
+}
+.the-ninth-table tr:last-child td:last-child{
+  background: gray;
+}
+.the-tenth-table tr:nth-child(3) td:nth-child(3){
+  background: gray;
+}
+.the-eleventh-table th:first-child, .the-eleventh-table td:first-child{
+  background: gray;
+}
+.the-twelfth-table th:nth-child(3), .the-twelfth-table td:nth-child(3){
+  background: gray;
+}
+.the-thirteenth-table th:last-child, .the-thirteenth-table td:last-child{
+  background: gray;
+}

@@ -1,21 +1,28 @@
 
 table{
   /* Границы таблицы */
-  /* border: 2px solid red; */
+  border: 2px solid red;
   /* сделает ширину таблицы равной ширине блока контейнера, в котором она находится */
   width: 90%;
   /* задаст фиксированную ширину для таблицы */
   /* width: 800px; */
   border-collapse: collapse;
+  /* Выравнивание таблицы по центру */
+  margin: 0 auto;
 }
 
 th{
   /* Границы ячеек th */
-  border: 8px double green;
+  border: 2px solid rgb(167, 167, 167);
   color: brown;
+  background:rgb(197, 197, 197);
 }
 
 td{
   /* Границы ячеек td */
-  border: 2px blue dashed;
+  border: 2px rgb(151, 151, 151) solid;
+  text-align: center;
+}
+tfoot tr:last-child td:last-child{
+  text-align: right;
 }

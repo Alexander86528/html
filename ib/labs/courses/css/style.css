@@ -1,6 +1,7 @@
 table{
   border-collapse: collapse;
-  width: 70%;
+  width: 95%;
+  margin: 0 auto;
 }
 caption{
   font-size: x-large;
@@ -8,7 +9,7 @@ caption{
 }
 thead{
   text-align: center;
-  background: black;
+  background: rgb(0, 0, 0);
   color: whitesmoke;
 }
 tfoot{
@@ -17,12 +18,18 @@ tfoot{
   background: rgb(151, 151, 151);
 }
 th{
-  padding: 3px;
+  padding: 5px;
   padding-right: 30px;
+}
+td{
+  padding: 5px;
 }
 .time{
   text-align: right;
 }
 tbody tr:nth-child(odd){
   background: silver;
+}
+table td:last-child{
+  text-align: right;
 }
