@@ -6,10 +6,10 @@ h1{
   font-style: oblique;
   font-weight: 500;
 }
-table{
+table, p, h1{
   background: white;
   border-collapse: collapse;
-  width: 70%;
+  width: 60%;
   text-align: left;
   margin: 0 auto;
 }
