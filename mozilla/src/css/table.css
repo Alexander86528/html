@@ -1,5 +1,6 @@
 table{
   border-collapse: collapse;
+  margin: 0 auto;
   width: 80%;
 }
 th{
@@ -9,6 +10,12 @@ td{
   background-color: rgb(233, 233, 233);
 }
 th, td{
-  border: 3px solid rgb(46, 46, 46);
+  border: 2px solid rgb(46, 46, 46);
   padding: 10px;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
 }

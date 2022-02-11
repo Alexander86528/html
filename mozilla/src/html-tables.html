@@ -9,7 +9,7 @@
 </head>
 <body>
   <h1>html таблицы</h1>
-  <h2 id="html-tables-basics"><a href="#html-tables-basics">html таблицы основы</a></h2>
+  <h2 id="html-tables-basics"><a href="#html-tables-basics">Таблицы основы</a></h2>
   <p>
     Этот раздел познакомит вас с таблицами HTML, представив самые базовые понятия - строки и ячейки, заголовки, слияние строк и столбцов, а также объединение всех ячеек в столбце в целях стилизации.
   </p>
@@ -17,5 +17,104 @@
     <tr><th>Начальные условия</th><td>html основы</td></tr>
     <tr><th>Цель</th><td>Общее знакомство с таблицами HTML</td></tr>
   </table>
+  <h2 id="what-are-tables?"><a href="#what-are-tables?">Что такое таблицы?</a></h2>
+  <div>
+    <p>
+      Таблица - это структурированный набор данных, состоящий из строк и столбцов (<strong>табличных данных</strong>). Таблицы позволяют быстро и легко посмотреть значения, показывающие некоторую взаимосвязь между различными типами данных, например - человек и его возраст, или расписание в плавательном бассейне.
+    </p>
+    <p>
+      <img src="images/numbers-table.png" alt="numbers-table.png" style="display: block; margin: 0 auto;">
+    </p>
+    <p>
+      <img src="images/swimming-timetable.png" alt="swimming-timetable.png" style="display: block; margin: 0 auto;">
+    </p>
+    <p>
+      Люди постоянно используют таблицы, причём уже давно, как показывает документ по переписи в США, относящийся к 1800 году:
+    </p>
+    <p>
+      <img src="images/1800-census.jpg" alt="1800-census.jpg" style="display: block; margin: 0 auto;">
+    </p>
+    <p>
+      Так что не удивительно, что создатели HTML включили в него средства для структурирования и представления табличных данных в сети.
+    </p>
+  </div>
+  <h3 id="how-does-the-table-work?"><a href="#how-does-the-table-work?">Как работает таблица?</a></h3>
+  <div>
+    <p>
+      Смысл таблицы в том, что она жёсткая. Информацию легко интерпретировать, визуально сопоставляя заголовки строк и столбцов. Например, посмотрите на приведённую ниже таблицу и найдите единственное личное местоимение, используемое в третьем лице , с полом ♀, выступающее в качестве объекта в предложении. Ответ можно найти, сопоставив соответствующие заголовки столбцов и строк.
+    </p>
+    <table>
+      <caption>Personal pronouns</caption>
+      <tbody>
+        <tr>
+          <th colspan="3"></th>
+          <th scope="col">Субъект</th>
+          <th scope="col">Объект</th>
+        </tr>
+        <tr>
+          <th rowspan="5" scope="rowgroup">Единствен. числ.</th>
+          <th colspan="2" scope="row">1 Лицо</th>
+          <td>Я</td>
+          <td>меня</td>
+        </tr>
+        <tr>
+          <th colspan="2" scope="row">2 Лицо</th>
+          <td>ты</td>
+          <td>тебя</td>
+        </tr>
+        <tr>
+          <th rowspan="3" scope="rowgroup">3 Лицо</th>
+          <th class="symbol" scope="row">♂</th>
+          <td>он</td>
+          <td>его</td>
+        </tr>
+        <tr>
+          <th class="symbol" scope="row">♀</th>
+          <td>она</td>
+          <td>её</td>
+        </tr>
+        <tr>
+          <th class="symbol" scope="row">o</th>
+          <td>оно</td>
+          <td>его</td>
+        </tr>
+        <tr>
+          <th rowspan="3" scope="rowgroup">Множ.числ.</th>
+          <th colspan="2" scope="row">1 Лицо</th>
+          <td>мы</td>
+          <td>нас</td>
+        </tr>
+        <tr>
+          <th colspan="2" scope="row">2 Лицо</th>
+          <td>вы</td>
+          <td>вас</td>
+        </tr>
+        <tr>
+          <th colspan="2" scope="row">2 Лицо</th>
+          <td>они</td>
+          <td>их</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      Если правильно представить таблицу HTML, интерпретировать её данные смогут даже люди, имеющие проблемы со зрением.
+    </p>
+  </div>
+  <h3 id="design-of-tables"><a href="#design-of-tables">Оформление таблиц</a></h3>
+  <div>
+    <p>
+      <a href="https://github.com/mdn/learning-area/blob/main/html/tables/basic/personal-pronouns.html" title="GitHub">Исходный код HTML (HTML source code)</a> вышеприведённой таблице есть в GitHub; посмотрите его и <a href="https://mdn.github.io/learning-area/html/tables/basic/personal-pronouns.html">живой пример (look at the live example)</a>! Вы заметите, что таблица там выглядит иначе — это потому, что на сайте MDN к этим данным была применена таблица стилей, а приведённый в GitHub пример информации о стиле не имеет.
+    </p>
+    <p>
+      Не питайте ложных иллюзий - чтобы эффективно представлять таблицы в веб, необходимо придать им хорошую структуру в HTML и применить к ним таблицы стилей <a href="https://developer.mozilla.org/ru/docs/Learn/CSS">(CSS)</a>. В данном разделе мы сфокусируемся на HTML, чтобы узнать о том, что касается CSS, вам надо обратиться к статье <a href="https://developer.mozilla.org/ru/docs/Learn/CSS/Building_blocks/Styling_tables">Стилизация таблиц</a>.
+    </p>
+    <p>
+      В этом разделе мы не фокусируемся на CSS, но всё же дали простейшую таблицу стилей CSS, чтобы сделать таблицы более читабельными. Эту таблицу стилей можно найти здесь, можно также использовать <a href="https://github.com/mdn/learning-area/blob/main/html/tables/basic/blank-template.html">шаблон HTML</a>, применяющий эту стаблицу стилей — вместе они дадут вам хорошую основу для экспериментов с таблицами HTML.
+    </p>
+  </div>
+  <h3 id="how-not-to"><a href="#how-not-to">Как не надо использовать таблицы html</a></h3>
+  <div>
+    <p></p>
+  </div>
 </body>
 </html>
