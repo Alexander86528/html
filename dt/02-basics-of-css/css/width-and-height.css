@@ -1,0 +1,21 @@
+table.width-height{
+  border: 1px solid lightgray;
+}
+table.width-height td{
+  border: 1px solid lightgray;
+  width: 200px;
+  height: 100px;
+}
+div.task-1{
+  width: 300px;
+}
+
+table.task-2{
+  border-collapse: collapse;
+  border: 1px solid lightgray;
+}
+table.task-2 td{
+  border: 1px solid lightgray;
+  width: 200px;
+  height: 100px;
+}
