@@ -11,4 +11,46 @@
 
   height: 100px;
   border: 2px solid darkgreen;
-} 
+}
+
+#task-01{
+  width: 200px;
+  border: 2px solid darkred;
+}
+#task-01-01{
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+  margin-left: 50px;
+
+  height: 100px;
+  border: 2px solid darkblue;
+}
+
+#task-02{
+  width: 200px;
+  border: 2px solid darkviolet;
+}
+#task-02-01{
+  margin-top: 50px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  margin-left: 25px;
+
+  height: 100px;
+  border: 2px solid darkorange;
+}
+
+#task-03{
+  width: 200px;
+  border: 2px solid darkcyan;
+}
+#task-03-01{
+  margin-top: 20px;
+  margin-right: 70px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+
+  height: 100px;
+  border: 2px solid indigo;
+}

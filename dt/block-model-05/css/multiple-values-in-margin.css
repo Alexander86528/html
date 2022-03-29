@@ -1,0 +1,79 @@
+#example-1{
+  width: 300px;
+  border: 3px solid darkred;
+}
+#example-1-1{
+  height: 100px;
+  border: 3px solid darkorchid;
+  margin: 10px 20px 30px 40px;
+}
+
+#task-1{
+  width: 200px;
+  border: 3px solid darkorange;
+}
+#task-1-1{
+  height: 100px;
+  border: 3px dashed darkblue;
+  margin: 25px 50px 100px 10px;
+}
+
+#example-2{
+  width: 300px;
+  border: 3px solid darkred;
+}
+#example-2-1{
+  height: 100px;
+  border: 3px dotted darkolivegreen;
+  margin: 40px 20px;
+}
+
+#task-2{
+  width: 200px;
+  border: 3px solid darkorange;
+}
+#task-2-1{
+  height: 50px;
+  border: 3px dashed darkblue;
+  margin: 100px 50px;
+}
+
+#task-3{
+  width: 200px;
+  border: 3px solid darkgoldenrod;
+}
+#task-3-1{
+  height: 50px;
+  border: 3px dashed darkseagreen;
+  margin: 25px 50px;
+}
+
+#example-3{
+  width: 300px;
+  border: 3px solid darkgrey;
+}
+#example-3-1{
+  height: 100px;
+  border: 3px solid darkgreen;
+  margin: 10px 20px 30px;
+}
+
+#task-4{
+  width: 200px;
+  border: 3px solid darkgoldenrod;
+}
+#task-4-1{
+  height: 50px;
+  border: 3px dashed darkcyan;
+  margin: 100px 50px 30px;
+}
+
+#task-5{
+  width: 400px;
+  border: 3px solid darkorange;
+}
+#task-5-1{
+  height: 50px;
+  border: 3px dashed darkseagreen;
+  margin: 30px 100px 50px;
+}
