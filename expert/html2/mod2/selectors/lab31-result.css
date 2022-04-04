@@ -2,7 +2,7 @@ body {
 	background: #FFF;
 	margin: 0;
 }
-/* Верх */
+/* Р’РµСЂС… */
 #header {
 	background: #EEE;
 	padding: 4px 20px;
@@ -18,7 +18,7 @@ body {
 h1 {
 	font-size: 14pt;
 }
-/* Основная часть */
+/* РћСЃРЅРѕРІРЅР°СЏ С‡Р°СЃС‚СЊ */
 tr {
 	vertical-align: top;
 }
@@ -28,7 +28,7 @@ tr {
 td {
 	padding: 4px 8px;
 }
-/* Основная часть (слева) */
+/* РћСЃРЅРѕРІРЅР°СЏ С‡Р°СЃС‚СЊ (СЃР»РµРІР°) */
 h2 {
 	font-size: 14pt;
 	margin: 0;
@@ -51,7 +51,7 @@ a.select {
 	font-weight: bold;
 	color: red;
 }
-/* Основная часть (справа) */
+/* РћСЃРЅРѕРІРЅР°СЏ С‡Р°СЃС‚СЊ (СЃРїСЂР°РІР°) */
 #right{
 	background: #DDD;
 	font-size: 75%;
@@ -78,7 +78,7 @@ div + a {
 	text-decoration: none;
 	font-size: 12pt;
 }
-/* Низ */
+/* РќРёР· */
 #footer {
 	background: #EEE;
 	border-top: 3px double #000;

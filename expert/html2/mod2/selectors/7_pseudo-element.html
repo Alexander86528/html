@@ -4,8 +4,18 @@
 <meta charset="utf-8">
 <title>Селекторы псевдоэлементов</title>
 <style type="text/css">
-
-
+p:before{
+	content: 'Начало абзаца - ';
+	color: darkred;
+}
+p::after{
+	content: ' - конец абзаца';
+	color: darkblue;
+}
+::first-letter{
+	color: darkgreen;
+	font-size: 2em;
+}
 </style>
 </head>
 <body>

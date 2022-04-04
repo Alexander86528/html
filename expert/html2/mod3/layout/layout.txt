@@ -11,8 +11,8 @@ width, height		!auto
 float				!none
 zoom				!normal IE only
 writing-mode		tb-rl IE only
-display				inline-block (сбросить невозможно)
+display				inline-block (СЃР±СЂРѕСЃРёС‚СЊ РЅРµРІРѕР·РјРѕР¶РЅРѕ)
 
 max-height, max-width	!none	IE7
-min-height, min-width	!auto	IE7 (такого значения нет)
+min-height, min-width	!auto	IE7 (С‚Р°РєРѕРіРѕ Р·РЅР°С‡РµРЅРёСЏ РЅРµС‚)
 
