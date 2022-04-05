@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>68. Особенности блочных элементов в CSS.</title>
+  <style>
+    #block-1{
+      height: 100px;
+      border: 2px solid darkred;
+    }
+    #block-2{
+      width: 100px;
+      height: 100px;
+      border: 2px solid darkorange;
+    }
+    #block-3{
+      width: 100px;
+      border: 2px solid darkkhaki;
+    }
+    #block-4{
+      width: 100px;
+      border: 2px solid darkgreen;
+    }
+    .block-4{
+      width: 100px;
+      height: 100px;
+      margin-bottom: 10px;
+      border: 2px solid darkseagreen;
+    }
+  </style>
+</head>
+<body>
+  <a href="../index-05.html">index-05.html(block-model-05)</a>
+
+  <h1>68. Особенности блочных элементов в CSS</h1>
+
+  <h2>Ширина блочного элемента.</h2>
+  <p>
+    Если у блочного элемента не задана ширина, то он автоматически займет по ширине все доступное пространство:
+  </p>
+  <div id="block-1">text</div>
+
+  <h2>Ширина и высота блочного элемента</h2>
+  <p>
+    Если блочному элементу можно задать ширину и высоту:
+  </p>
+  <div id="block-2">text</div>
+
+  <h2>Высота блочного элемента</h2>
+  <p>
+    Высота(height) блочного элемента сформируется содержимым(если не задана):
+  </p>
+  <div id="block-3">text</div>
+
+  <h2>Высота без содержимого</h2>
+  <p>
+    Если содержимого нет, то мы увидим слипшуюся границу:
+  </p>
+  <div id="block-4"></div>
+
+  <h2>Несколько блочных элементов рядом</h2>
+  <p>
+    Если расположить несколько блочных элементов рядом, то каждый из них будет начинаться с новой строки:
+  </p>
+  <div class="block-4">text</div>
+  <div class="block-4">text</div>
+  <div class="block-4">text</div>
+</body>
+</html>

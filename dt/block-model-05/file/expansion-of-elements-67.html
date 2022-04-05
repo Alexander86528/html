@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>67. Расширение элементов</title>
+  <link rel="stylesheet" href="../css/expansion-of-elements-67.css">
+</head>
+<body>
+  <a href="../index-05.html">index-05.html(block-model-05)</a>
+  <h1>Работа с отступами padding на css</h1>
+
+  <h2>Влияние отступа(padding)</h2>
+  <p>
+    Пусть некоторому элементу мы задали ширину 100px. В CSS это отнюдь не означает, что элемент действительно будет шириной в 100px. Дело в том, что добавление padding расширяет элемент и он становится больше, чем указано в свойстве width.
+  </p>
+  <p>
+    Давайте посмотрим на примере. Сделаем два блока, которым зададим ширину 100 пикселей. При этом второму блоку зададим padding, а первому - нет. В результате второй блок будет больше на размер отступа:
+  </p>
+  <div id="elem1"></div>
+  <p>второй блок (padding: 25px;)</p>
+  <div id="elem2"></div>
+
+  <h2>Влияние границы(border)</h2>
+  <p>
+    Граница также расширяет блок. Давайте посмотрим на аналогичном примере. Зададим второму блоку границу в 10px:
+  </p>
+  <div id="elem3"></div>
+  <p>border 10px.</p>
+  <div id="elem4"></div>
+
+  <h2>Одновременн и отступ(padding), и граница(border).</h2>
+  <p>
+    Если у блока есть и отступ(padding), и граница(border), то они будут вместе расширять блок:
+  </p>
+  <div id="elem5"></div>
+  <p>отступ 30px, граница 10px.</p>
+  <div id="elem6"></div>
+
+  <h2>Как избавиться от расширения(box-size: border-box;).</h2>
+  <p>
+    Как правило, описанное расширение вредное и вам хотелось бы от него избавиться. Для этого в CSS есть свойство box-sizing. Если указать ему значение border-box, то ни padding, ни граница не будут расширять блок:
+  </p>
+  <div id="elem7"></div>
+  <p>отступ(padding) 30px, граница(border) 10px.</p>
+  <p>box-sizing: border-box;</p>
+  <div id="elem8"></div>
+</body>
+</html>

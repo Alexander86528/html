@@ -1,0 +1,50 @@
+#elem1{
+  width: 100px;
+  height: 100px;
+  background: darkblue;
+}
+#elem2{
+  width: 100px;
+  height: 100px;
+  background: darkblue;
+  padding: 25px;
+}
+
+#elem3{
+  width: 100px;
+  height: 100px;
+  background: darkblue;
+}
+#elem4{
+  width: 100px;
+  height: 100px;
+  background: darkblue;
+  border: 10px solid darkcyan;
+}
+
+#elem5{
+  width: 100px;
+  height: 100px;
+  background: darkblue;
+}
+#elem6{
+  width: 100px;
+  height: 100px;
+  background: darkblue;
+  padding: 30px;
+  border: 10px solid darkcyan;
+}
+
+#elem7{
+  width: 100px;
+  height: 100px;
+  background: darkblue;
+}
+#elem8{
+  width: 100px;
+  height: 100px;
+  background: darkblue;
+  padding: 30px;
+  border: 10px solid darkcyan;
+  box-sizing: border-box;
+}
