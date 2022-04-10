@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Основы работы с границами на CSS</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    #example{
+      border-width: 3px;
+      border-style: solid;
+      border-color: darkred;
+      width: 300px;
+      height: 100px;
+    }
+    #solid{
+      border-width: 2px;
+      border-style: solid;
+      border-color:  darkgrey;
+      width: 300px;
+      height: 100px;
+    }
+    #dotted{
+      border-width: 2px;
+      border-style: dotted;
+      border-color:  darkslategray;
+      width: 300px;
+      height: 100px;
+    }
+    #dashed{
+      border-width: 2px;
+      border-style: dashed;
+      border-color:  darkgreen;
+      width: 300px;
+      height: 100px;
+    }
+    #double{
+      border-width: 6px;
+      border-style: double;
+      border-color:  darkblue;
+      width: 300px;
+      height: 100px;
+    }
+    #task-1{
+      border-width: 5px;
+      border-style: solid;
+      border-color:  darkblue;
+      width: 300px;
+      height: 200px;
+    }
+    #task-2{
+      border-width: 5px;
+      border-style: dotted;
+      border-color:  red;
+      width: 300px;
+      height: 200px;
+    }
+    #task-3{
+      border-width: 5px;
+      border-style: dashed;
+      border-color:  orangered;
+      width: 300px;
+      height: 200px;
+    }
+    #task-4{
+      border-width: 10px;
+      border-style: double;
+      border-color:  blue;
+      width: 300px;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <p><a href="../index-04.html">index-04.html(оформление 04)</a></p>
+  <h1>52. Основы работы с границами на CSS</h1>
+  <p>
+    Сейчас мы с вами научимся добавлять границу элементам. Это делается при помощи трех свойств: свойство <span>border-width</span> задает толщину границы, <span>border-color</span> - цвет, а <span>border-style</span> задает тип границы.
+    Первые два свойства работают очевидным образом: <span>border-color</span> принимает цвета в том же формате, что и свойство <span>color</span>, а толщина границы задается в пикселях. А вот свойство <span>border-style</span> принимает значения в виде ключевых слов. Например, значение <span>solid</span> задает сплошную линию.
+  </p>
+
+  <h2>example 1</h2>
+  <div id="example"></div>
+
+  <h2>значение solid</h2>
+  <div id='solid'></div>
+
+  <h2>значение dotted</h2>
+  <div id="dotted"></div>
+
+  <h2>значение dashed</h2>
+  <div id="dashed"></div>
+
+  <h2>значение double</h2>
+  <div id="double"></div>
+
+  <h3>task-1</h3>
+  <div id="task-1"></div>
+
+  <h3>task-2</h3>
+  <div id="task-2"></div>
+
+  <h3>task-3</h3>
+  <div id="task-3"></div>
+
+  <h3>task-4</h3>
+  <div id="task-4"></div>
+
+</body>
+</html>
