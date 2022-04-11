@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS3 border-radius</title>
+  <link rel="stylesheet" href="../css/CSS3-border-radius.css">
+</head>
+<body>
+  <p><a href="../index.html">index</a></p>
+  
+  <h1>CSS3-рамка</h1>
+  <h2>Закруглённые углы и рамки-изображения</h2>
+  <p><a href="https://html5book.ru/css3-borders/#border-radius">Закругление углов с помощью border-radius(html5book.ru)</a></p>
+  <h3>1. Закругление углов с помощью border-radius</h3>
+  <p>
+    Свойство позволяет закруглить углы строчных и блочных элементов. Кривая для каждого угла определяется с помощью одного или двух радиусов, определяющих его форму — круга или эллипса. Радиус распространяется на весь фон, даже если элемент не имеет границ, точное положение секущей определяется с помощью свойства <span class="property">background-clip</span>.
+  </p>
+  <p>
+    Свойство <span class="property">border-radius</span> позволяет закруглить все углы одновременно.
+  </p>
+  <p>
+    С помощью свойств <span class="property">border-top-left-radius</span>, <span class="property">border-top-right-radius</span>, <span class="property">border-bottom-right-radius</span>, <span class="property">border-bottom-left-radius</span> можно закруглить каждый угол отдельно.
+  </p>
+  <p>
+    Если задать два значения для свойства <span class="property">border-radius</span>, то первое значение закруглит <span class="bold">верхний левый</span> и <span class="bold">нижний правый угол</span>, а второе — <span class="bold">верхний правый</span> и <span class="bold">нижний левый</span>.
+  </p>
+
+  <p>1. radius 1 {border-radius: 0 0 20px 20px;}</p>
+  <div id="radius-1">radius 1</div>
+
+  <p>2. radius 2 {border-radius: 0 10px 20px;}</p>
+  <div id="radius-2">radius 2</div>
+
+  <p>3. radius 3 {border-radius: 10px 20px;}</p>
+  <div id="radius-3">radius 3</div>
+
+  <p>4. radius 4 {border-radius: 10px/20px;}</p>
+  <div id="radius-4">radius 4</div>
+
+  <p>5. r5 {border-radius: 5px 10px 15px 30px/30px 15px 10px 5px;}</p>
+  <div id="radius-5">radius 5</div>
+
+  <p>6. radius 6 {border-radius: 10px 20px 30px 40px/30px;}</p>
+  <div id="radius-6">radius 6</div>
+
+  <p>7. radius 7 {border-radius: 50%;}</p>
+  <div id="radius-7"></div>
+
+  <p>8. radius 8 {border-top: none; border-bottom: none; border-radius: 30px/90px;}</p>
+  <div id="radius-8">radius 8</div>
+
+  <p>9. radius 9 {border-bottom-left-radius: 100px;}</p>
+  <div id="radius-9">radius 9</div>
+
+  <p>10. radius 10 {border-radius: 0 100%;}</p>
+  <div id="radius-10"></div>
+
+  <p>11. radius 11 {border-radius: 0 50% 50% 50%;}</p>
+  <div id="radius-11"></div>
+
+  <p>12. radius 12 {border-top-left-radius: 100% 20px; border-bottom-right-radius: 100% 20px;}</p>
+  <div id="radius-12">radius 12</div>
+
+</body>
+</html>
