@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>56. Разные скругления для разных углов CSS</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    #example-1{
+      width: 300px;
+      height: 100px;
+      border: 2px solid sienna;
+      border-radius: 10px 20px 30px 40px;
+    }
+    #task-1{
+      width: 200px;
+      height: 200px;
+      border: 2px solid brown;
+      border-radius: 10px 30px 50px 70px;
+    }
+    #example-2{
+      width: 300px;
+      height: 100px;
+      border: 2px solid red;
+      border-radius: 10px 50px;
+    }
+    #task-2{
+      width: 200px;
+      height: 200px;
+      border: 2px solid darkred;
+      border-radius: 10px 30px;
+    }
+    #example-3{
+      width: 300px;
+      height: 100px;
+      border: 2px solid darkmagenta;
+      border-radius: 10px 20px 30px;
+    }
+    #task-3{
+      width: 200px;
+      height: 200px;
+      border: 2px solid purple;
+      border-radius: 10px 30px 20px;
+    }
+  </style>
+</head>
+<body>
+  <p><a href="../index-04.html">index-04.html(оформление 04)</a></p>
+  <h1>Разные скругления для разных углов CSS</h1>
+  <p>
+    Свойство <span>border-radius</span> может принимать не только одно значение, но и два, три или четыре. Каждое значение будет задавать скругление для своего угла.
+  </p>
+
+  <h2>4 значения</h2>
+  <p>
+    Если задано четыре значения, то первое значение задает скругление для верхнего левого угла, второе - для верхнего правого, третье - для нижнего правого угла, а четвертое - для нижнего левого угла:
+  </p>
+  <h3>example-1</h3>
+  <div id="example-1"></div>
+  <h3>task-1</h3>
+  <div id="task-1"></div>
+
+  <h2>2 значения</h2>
+  <p>
+    Если задано два значения, то первое значение задает скругление для верхнего левого и нижнего правого углов, второе - для верхнего правого и нижнего левого:
+  </p>
+  <h3>example 2</h3>
+  <div id="example-2"></div>
+  <h3>task-2</h3>
+  <div id="task-2"></div>
+
+  <h2>3 значения</h2>
+  <p>
+    Если задано три значения, то первое значение задает скругление для верхнего левого угла, второе - одновременно для верхнего правого и нижнего левого, а третье - для нижнего правого угла.
+  </p>
+  <h3>example 3</h3>
+  <div id="example-3"></div>
+  <h3>task 3</h3>
+  <div id="task-3"></div>
+  
+</body>
+</html>
