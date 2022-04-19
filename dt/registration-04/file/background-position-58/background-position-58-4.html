@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Свойство background-position</title>
+  <link rel="stylesheet" href="../../css/style.css">
+  <style>
+    div{
+      border: 1px solid black;
+    }
+    .container{
+      margin: 0 auto;
+      padding: 0 20px;
+      width: 80%;
+      max-width: 1220px;
+    }
+    #example-1{
+      background-image: url(../../img/asd.png);
+      background-color: yellowgreen;
+      background-repeat: no-repeat;
+      width: 400px;
+      height: 300px;
+      border: 2px solid darkslategrey;
+    }
+    #example-2{
+      background-color: yellow;
+      background-image: url(../../img/asd.png);
+      background-repeat: no-repeat;
+      background-position: top right;
+      width: 400px;
+      height: 300px;
+      border: 2px solid darkslategrey;
+    }
+    #example-3{
+      background-color: greenyellow;
+      background-image: url(../../img/asd.png);
+      background-repeat: no-repeat;
+      background-position: bottom right;
+      width: 400px;
+      height: 300px;
+      border: 2px solid darkslategrey;
+    }
+    #example-4{
+      background-color: greenyellow;
+      background-image: url(../../img/asd.png);
+      background-repeat: no-repeat;
+      background-position: right center;
+      width: 400px;
+      height: 300px;
+      border: 2px solid darkslategrey;
+    }
+    #example-5{
+      background-color: greenyellow;
+      background-image: url(../../img/asd.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      width: 400px;
+      height: 300px;
+      border: 2px solid darkslategrey;
+    }
+  </style>
+</head>
+<body>
+  <a href="../../index-04.html">index-04.html</a>
+  <div class="container">
+    <h1>Свойство background-position</h1>
+      <p>
+        Свойство <span>background-position</span> задает местоположение фоновой картинки элемента. Местоположение можно задавать с помощью любых единиц для размеров. Первое значение обозначает отступ <b>слева</b>, второе - отступ <b>сверху</b>.
+      </p>
+      <p>
+        Можно также задавать положение ключевыми словами. В этом случае порядок значений не важен. Ключевые слова для вертикали: <span>top, center, bottom</span>. Ключевые слова по горизонтали: <span>left, center, right</span>.
+      </p>
+      <h2>Как пользоваться ключевыми словами</h2>
+      <p>
+        Чтобы разместить картинку ключевым словом, нужно указать одно значение для вертикали и одно для горизонтали. К примеру, если указать значение <span>top right</span>, то картинка станет сверху справа.
+      </p>
+      <p>
+        Порядок слов неважен: можно написать <span>top right</span>, а можно - <span>right top</span>. Если есть ключевое слово <span>center</span> - его можно опускать. Например, <span>top center</span>, все равно что просто <span>top</span>. А <span>center center</span> все равно что просто <span>center</span>.
+      </p>
+
+    <h3>example 1</h3>
+      <p>По умолчанию сверху и слева.</p>
+      <div id="example-1"></div>
+
+    <h3>example 2</h3>
+      <p>Верхний правый угол</p>
+      <div id="example-2"></div>
+
+    <h3>example 3</h3>
+      <p>Нижний правый угол</p>
+      <div id="example-3"></div>
+
+    <h3>example 4</h3>
+      <p>Справа и по центру вертикали</p>
+      <div id="example-4"></div>
+
+    <h3>example 4</h3>
+      <p>По центру и по центру</p>
+      <div id="example-5"></div>
+  </div>
+
+</body>
+</html>
