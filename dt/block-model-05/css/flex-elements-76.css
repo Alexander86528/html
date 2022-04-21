@@ -1,0 +1,98 @@
+.ex-1{
+  display: flex;
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+}
+.ex-1-1{
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+}
+.task-1{
+  display: flex;
+  width: 900px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+.task-1 div{
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+}
+.ex-2{
+  display: flex;
+  width: 300px;
+  border: 1px solid red;
+}
+.ex-2 div{
+  width:  50px;
+  height: 50px;
+  border: 1px solid green;
+}
+.task-2{
+  display: flex;
+  width: 900px;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+.task-2 div{
+  width:120px;
+  height:  100px;
+  margin: 20px;
+  border: 1px solid green;
+}
+.ex-3{
+  display: flex;
+  /* padding: 20px; */
+  border: 1px solid red;
+}
+.ex-3 div{
+  width: 50px;
+  height: 50px;
+  /* margin: 10px; */
+  border: 1px solid green;
+}
+.task-3{
+  display: flex;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+.task-3 div{
+  width: 120px;
+  height: 60px;
+  /* margin: 20px auto; */
+  border: 1px solid green;
+}
+.ex-4{
+  display: inline-flex;
+  border: 1px solid red;
+}
+.ex-4 div{
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+}
+.ex-5{
+  display: inline-flex;
+  padding: 10px;
+  border: 1px solid red;
+}
+.ex-5 div{
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+}
+.ex-6{
+  display: inline-flex;
+  padding: 10px;
+  border: 1px solid red;
+}
+.ex-6 div{
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  border: 1px solid green;
+}
