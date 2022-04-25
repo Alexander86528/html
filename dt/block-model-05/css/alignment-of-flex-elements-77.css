@@ -1,0 +1,58 @@
+.parent{
+  width: 500px;
+  height: 200px;
+  border: 1px solid darkred;
+}
+.child{
+  width: 50px;
+  height: 50px;
+  border: 1px solid darkblue;
+  /* margin: 5px; */
+}
+
+.parent1{
+  width: 900px;
+  height: 200px;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+.child1{
+  width: 120px;
+  height: 60px;
+  border: 1px solid darkolivegreen;
+  /* margin: 5px; */
+}
+
+.ex1{
+  display: flex;
+  justify-content: center;
+}
+.ex2{
+  display: flex;
+  justify-content: space-between;
+}
+.ex3{
+  display: flex;
+  justify-content: space-around;
+}
+.ex4{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.task1{
+  display: flex;
+  justify-content: center;
+}
+.task2{
+  display: flex;
+  justify-content: space-between;
+}
+.task3{
+  display: flex;
+  justify-content: space-around;
+}
+.task4{
+  display: flex;
+  justify-content: space-evenly;
+}
