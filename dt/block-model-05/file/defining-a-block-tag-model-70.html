@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>70. Определение блочной модели тегов</title>
+  <style>
+    .conteiner {
+      /* border: 1px solid gray; */
+      margin: 0 3% 0 3%;
+      /* width: 90%; */
+      padding: 5px;
+    }
+
+    h3 {
+      color: darkred;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    .task {
+      border: 2px solid darkslategrey;
+    }
+
+    .task-1 {
+      width: 80px;
+      height: 80px;
+    }
+  </style>
+</head>
+
+<body>
+  <a href="../index-05.html">index.html(block-model-05)</a>
+
+  <div class="conteiner">
+    <h1>70. Определение блочной модели тегов</h1>
+    <h2>Определите, к какой блочной модели относятся теги. <a
+        href="http://code.mu/ru/markup/book/prime/block-model/elements-model/">(code.mu)</a></h2>
+    <ul>
+      <li>
+        <a href="http://code.mu/ru/markup/book/prime/block-model/block-elements/">68. Особенности блочных элементов в
+          CSS</a>
+      </li>
+      <li>
+        <a href="http://code.mu/ru/markup/book/prime/block-model/inline-elements/">69. Особенности строчных элементов в
+          CSS</a>
+      </li>
+      <li>
+        <a href="http://code.mu/ru/markup/book/prime/block-model/elements-model/">70. Определение блочной модели
+          тегов</a>
+      </li>
+    </ul>
+    <h3>1. Определите, к какой блочной модели относятся теги p.</h3>
+    <p>1.1. Можно задать ширину и высоту.</p>
+    <p class="task task-1">text</p>
+    <p>1.2. Если у блочного элемента не задана ширина, то он автоматически займет всё доступное пространство.</p>
+    <p>1.3. Если у блочного элемента высота не задана, то высота сформируется содержимым.</p>
+    <p class="task">text</p>
+    <p>1.4. Если у блочного элемента высота не задана и содержимого нет, то блочный элемент схлопнется в
+      линию(border-top + border-bottom).</p>
+    <p class="task"></p>
+    <p>1.5. Если блочные элементы расположить рядом, то каждый из них будет начинаться с новой строки.</p>
+    <p class="task">text</p>
+    <p class="task">text</p>
+    <p class="task">text</p>
+    <p class="task task-1">text</p>
+    <p class="task task-1">text</p>
+    <p class="task task-1">text</p>
+
+    <h3>2. Определите, к какой блочной модели относятся теги b.</h3>
+    <p>2.1. Если строчному элементу задать ширину и высоту, то они не сработают. Ширина и высота строчных элементов
+      зависят от содержимого.</p>
+    <p>2.2. Если расположить несколько строчных элементов рядом, то они выстроятся в ряд:</p>
+    <b class="task">text</b>
+    <b class="task">text text</b>
+    <b class="task">text text text</b>
+    <b class="task">text text text text</b>
+    <em>Пространство между элементами - пробелы(enter).</em>
+    <p>2.3. Если у строчных элементов нет содержимого, то он тоже схлопнется(border-left + border-right):</p>
+    <b class="task"></b>
+
+    <h3>3. Определите, к какой блочной модели относятся теги h2.</h3>
+
+  </div>
+</body>
+
+</html>
