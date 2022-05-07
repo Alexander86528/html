@@ -14,7 +14,7 @@
       padding: 5px;
     }
 
-    h3 {
+    .heder {
       color: darkred;
     }
 
@@ -29,11 +29,6 @@
     .task-1 {
       width: 80px;
       height: 80px;
-    }
-
-    .task-3{
-      width: 100px;
-      height: 100px;
     }
   </style>
 </head>
@@ -59,13 +54,14 @@
           тегов</a>
       </li>
     </ul>
-    <h3>1. Определите, к какой блочной модели относятся теги p.</h3>
+    <h3 class="heder">1. Определите, к какой блочной модели относятся теги &lt;p&gt;.</h3>
     <p>1.1. Можно задать ширину и высоту.</p>
     <p class="task task-1">text</p>
     <p>1.2. Если у блочного элемента не задана ширина, то он автоматически займет всё доступное пространство.</p>
     <p>1.3. Если у блочного элемента высота не задана, то высота сформируется содержимым.</p>
     <p class="task">text</p>
-    <p>1.4. Если у блочного элемента высота не задана и содержимого нет, то блочный элемент схлопнется в линию(border-top + border-bottom).</p>
+    <p>1.4. Если у блочного элемента высота не задана и содержимого нет, то блочный элемент схлопнется в
+      линию(border-top + border-bottom).</p>
     <p class="task"></p>
     <p>1.5. Если блочные элементы расположить рядом, то каждый из них будет начинаться с новой строки.</p>
     <p class="task">text</p>
@@ -74,20 +70,20 @@
     <p class="task task-1">text</p>
     <p class="task task-1">text</p>
     <p class="task task-1">text</p>
-    
-    <h3>2. Определите, к какой блочной модели относятся теги b.</h3>
-      <p>2.1. Если строчному элементу задать ширину и высоту, то они не сработают. Ширина и высота строчных элементов
-      зависят от содержимого.</p>
-      <p>2.2. Если расположить несколько строчных элементов рядом, то они выстроятся в ряд:</p>
-      <b class="task">text</b>
-      <b class="task">text text</b>
-      <b class="task">text text text</b>
-      <b class="task">text text text text</b>
-      <em>Пространство между элементами - пробелы(enter).</em>
-      <p>2.3. Если у строчных элементов нет содержимого, то он тоже схлопнется(border-left + border-right):</p>
-      <b class="task"></b>
 
-  <h3>3. Определите, к какой блочной модели относятся теги h2.</h3>
+    <h3 class="heder">2. Определите, к какой блочной модели относятся теги &lt;b&gt;.</h3>
+    <p>2.1. Если строчному элементу задать ширину и высоту, то они не сработают. Ширина и высота строчных элементов
+      зависят от содержимого.</p>
+    <p>2.2. Если расположить несколько строчных элементов рядом, то они выстроятся в ряд:</p>
+    <b class="task">text</b>
+    <b class="task">text text</b>
+    <b class="task">text text text</b>
+    <b class="task">text text text text</b>
+    <em>Пространство между элементами - пробелы(enter).</em>
+    <p>2.3. Если у строчных элементов нет содержимого, то он тоже схлопнется(border-left + border-right):</p>
+    <b class="task"></b>
+
+    <h3 class="heder">3. Определите, к какой блочной модели относятся теги &lt;h2&gt;.</h3>
     <p>Если элемент блочный, то ему можно задать ширину и высоту:</p>
     <h2 class="task task-1">task 3</h2>
     <h2 class="task task-1">task 3</h2>
@@ -101,23 +97,60 @@
     <h2 class="task">task 3</h2>
     <h2 class="task">task 3</h2>
     <h2 class="task">task 3</h2>
-    <p>Если у блочного элемента высота не задана и содержимого нет, то блочный элемент схлопнется в линию(border-top + border-bottom).</p>
+    <p>Если у блочного элемента высота не задана и содержимого нет, то блочный элемент схлопнется в линию(border-top +
+      border-bottom).</p>
     <h2 class="task"></h2>
     <h2 class="task"></h2>
     <h2 class="task"></h2>
     <h2 class="task"></h2>
     <h2 class="task"></h2>
     <p>Если блочные элементы расположить рядом, то каждый из них будет начинаться с новой строки.</p>
-    <h2 class="task task-3">task 3</h2>
-    <h2 class="task task-3">task 3</h2>
-    <h2 class="task task-3">task 3</h2>
-    <h2 class="task task-3">task 3</h2>
-    <h2 class="task task-3">task 3</h2>
+    <h2 class="task task-1">task 3</h2>
+    <h2 class="task task-1">task 3</h2>
+    <h2 class="task task-1">task 3</h2>
+    <h2 class="task task-1">task 3</h2>
+    <h2 class="task task-1">task 3</h2>
 
-  <h3>4. Определите, к какой блочной модели относятся теги h3</h3>
+    <h3 class="heder">4. Определите, к какой блочной модели относятся теги &lt;h3&gt;</h3>
+    <p>1.</p>
+    <h3 class="task task-1">task 4</h3>
+    <h3 class="task task-1">task 4</h3>
+    <h3 class="task task-1">task 4</h3>
+    <h3 class="task task-1">task 4</h3>
+    <h3 class="task task-1">task 4</h3>
+    <p>2. , 3.</p>
+    <h3 class="task">task 4</h3>
+    <h3 class="task">task 4</h3>
+    <h3 class="task">task 4</h3>
+    <h3 class="task">task 4</h3>
+    <h3 class="task">task 4</h3>
+    <p>4.</p>
+    <h3 class="task"></h3>
+    <h3 class="task"></h3>
+    <h3 class="task"></h3>
+    <h3 class="task"></h3>
+    <h3 class="task"></h3>
 
-  <h3>5. Определите, к какой блочной модели относятся теги i.</h3>
-  
-</div>
+    <h3 class="heder">5. Определите, к какой блочной модели относятся теги &lt;i&gt;.</h3>
+    <p>1. Если строчным элементам задать ширину и высоту, то они(высота и ширина) не сработают.</p>
+    <i class="task task-1"></i><i class="task task-1"></i><i class="task task-1"></i><i class="task task-1"></i><i
+      class="task task-1"></i>
+    <p>2. Если расположить элементы рядом, то они выстроятся в строчку</p>
+    <i class="task">text 1</i><i class="task">text 2</i><i class="task">text 3</i><i class="task">text 4</i><i
+      class="task">text 5</i>
+    <p>3. Отступы между строчными элементами(это Enter)</p>
+    <i class="task">text 1</i>
+    <i class="task">text 2</i>
+    <i class="task">text 3</i>
+    <i class="task">text 4</i>
+    <i class="task">text 5</i>
+
+    <h3 class="heder">6. Определите к какой блочной модели относятся теги &lt;a&gt;</h3>
+    <p>1. Не действует ширина и высота.</p>
+    <a href="#" class="task task-1"></a><a href="#" class="task task-1"></a><a href="#" class="task task-1"></a><a href="#" class="task task-1"></a><a href="#" class="task task-1"></a>
+    <p>2. Высота и ширина задаётся содержимым. Если расположить рядом, то выстроятся в строчку.</p>
+    <a href="#" class="task">text 1</a><a href="#" class="task">text 2</a><a href="#" class="task">text 3</a><a href="#" class="task">text 4</a><a href="#" class="task">text 5</a>
+  </div>
 </body>
+
 </html>
