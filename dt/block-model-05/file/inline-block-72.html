@@ -1,12 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>72. Строчно-блочные элементы.</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>72. Строчно-блочные элементы.</title>
+  <link rel="stylesheet" href="../css/inline-block-72.css">
 </head>
 <body>
-    
+  <p>1. Строчно-блочному элементу можно задать ширину и высоту, как блочному элементу.</p>
+  <span class="width"></span>
+
+  <p>2. Если у строчно-блочного элемента не задана ширина, то его ширина сформируется содержимым.</p>
+  <p>Без содержимого</p>
+  <span class="no-width"></span>
+  <p>С содержимым</p>
+  <span class="no-width">span inline-block</span>
+
+  <p>3. Если у строчно-блочного элемента не задана высота, то она сформируется содержимым.</p>
+  <span class="no-height">span inline-block no-height</span>
+
+  <p>4. Если задать несколько строчно-блочных элементов, то они выстроятся как строчные</p>
+  <span class="multy">text</span><span class="multy">text</span><span class="multy">text</span><span class="multy">text</span><span class="multy">text</span>
+
+  <p>task 1</p>
+  <p>Выстройте эти дивы в ряд, преобразовав их в строчно-блочные элементы.</p>
+  <div class="elem">text</div>
+  <div class="elem">text</div>
+  <div class="elem">text</div>
+  <div class="elem">text</div>
+  <div class="elem">text</div>
+  
 </body>
 </html>
