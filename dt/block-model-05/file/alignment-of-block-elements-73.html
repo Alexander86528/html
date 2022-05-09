@@ -6,10 +6,63 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>73. Выравнивание блочных элементов</title>
+  <style>
+    .block1 {
+      border: 2px solid darkred;
+    }
+
+    .block {
+      border: 2px solid darkslateblue;
+      height: 100px;
+      margin: 10px;
+    }
+
+    .block1-1 {
+      width: 200px;
+      margin: 10px auto;
+    }
+
+    .block1-2 {
+      width: 400px;
+      margin: 10px auto;
+    }
+
+    .block1-3 {
+      width: 800px;
+      margin: 10px auto;
+    }
+
+    .block1-4 {
+      width: 200px;
+      margin-left: auto;
+    }
+  </style>
 </head>
 
 <body>
   <a href="../index-05.html">index-05(block-model)</a>
+  <h1>73. Выравнивание блочных элементов.</h1>
+
+  <h2>73.1. Выравнивание по центру(example 1)</h2>
+  <p>Свойство <strong>margin</strong> применяется не только для задания отступов, но и для центрирования блочных
+    элементов. Для этого правый и левый отступ следует задать в значение <strong>auto</strong>.</p>
+  <div class="block1">
+    <div class="block block1-1"></div>
+  </div>
+  <p>Таким образом можно центрировать только <strong>блочные элементы</strong>, только по <strong>горизонтали</strong> и
+    только, если им <strong>задана ширина</strong>.</p>
+
+  <h2>73.2. Задача 1</h2>
+  <div class="block1">
+    <div class="block block1-1"></div>
+    <div class="block block1-2"></div>
+    <div class="block block1-3"></div>
+  </div>
+
+  <h2>73.3. Выравнивание(margin-left)</h2>
+  <div class="block1">
+    <div class="block block1-4"></div>
+  </div>
 </body>
 
 </html>
