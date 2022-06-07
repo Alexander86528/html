@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .parent {
+      width: 200px;
+      height: 200px;
+      border: 2px solid #ff0000;
+      display: flex;
+    }
+
+    .child {
+      width: 50px;
+      border: 2px solid #00FF00;
+    }
+
+    .child2 {
+      box-sizing: border-box;
+    }
+  </style>
+  <title>box-sizing</title>
+</head>
+
+<body>
+  <h1>box-sizing</h1>
+
+  <h2>1. box-sizing: content-box;(по умолчанию).</h2>
+  <div class="parent">
+    <div class="child">child 1</div>
+    <div class="child">child 2</div>
+    <div class="child">child 3</div>
+  </div>
+
+  <h2>1. box-sizing: border-box;</h2>
+  <div class="parent">
+    <div class="child child2">child 1</div>
+    <div class="child child2">child 2</div>
+    <div class="child child2">child 3</div>
+  </div>
+
+</body>
+
+</html>
