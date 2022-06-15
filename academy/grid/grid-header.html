@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>grid-header</title>
+  <style>
+/* 
+    body {
+      margin: 0;
+    }
+ */
+    .logo {
+      outline: 1px solid #ff0000;
+    }
+
+    .img {
+      display: block;
+    }
+
+    .header-title {
+      outline: 1px solid #00ff00;
+    }
+    
+    .page-header {
+      display: grid;
+      grid-template-columns: 100px 400px;
+      outline: 1px solid #000000;
+      padding: 10px 10px 10px 10px;
+    }
+
+    .features-list {
+      outline: 3px solid #0000ff;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .feature {
+      padding-top: 30px;
+      outline: 2px solid #382938;
+    }
+
+    h2 {
+      /* margin-top: 30px; */
+      outline: 1px solid #0fee55;
+    }
+
+    p {
+      outline: 1px solid #ff0040;
+    }
+  </style>
+</head>
+<body>
+  <header class="page-header">
+    <a class="logo" href="#">
+      <img class="img" src="logo.svg" alt="logo" width="100" height="50">
+    </a>
+    <h1 class="header-title">grid-header</h1>
+  </header>
+  <main class="page-main">
+    <ul class="features-list">
+      <li class="feature">
+        <h2>text 1</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </li>
+      <li class="feature">
+        <h2>text 2</h2>
+        <p>At assumenda ipsum vel tenetur.</p>
+      </li>
+      <li class="feature">
+        <h2>text 3</h2>
+        <p>Voluptatibus labore incidunt unde esse!</p>
+      </li>
+      <li class="feature">
+        <h2>text 4</h2>
+        <p>Quos accusamus cumque libero architecto.</p>
+      </li>
+      <li class="feature">
+        <h2>text 5</h2>
+        <p>Blanditiis, tempore! Ab, voluptas aliquid.</p>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>
