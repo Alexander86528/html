@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>slider form</title>
+  <style>
+    .range-scale {
+      position: relative;
+      width: 400px;
+      height: 4px;
+      margin-bottom: 40px;
+      background-color: #000000;
+      border-radius: 2px;
+    }
+
+    .range-bar{
+      position: absolute;
+      height: 4px;
+      background-color: #0000ff;
+    }
+
+    .toggle {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: rgba(255, 255, 255, 0.5);
+      outline: 1px solid #000000;
+      border: none;
+      cursor: pointer;
+    }
+
+    .toggle-min {
+      top: -8px;
+      left: -10px;
+    }
+
+    .toggle-max {
+      top: -8px;
+      right: -10px;
+    }
+    .range-wrapper {
+      display: flex;
+      /* flex-direction: column; */
+    }
+
+    .input::-webkit-outer-spin-button,
+    .input::-webkit-inner-spin-button {
+      appearance: none;
+    }
+
+    .input {
+      padding: 10px;
+      appearance: none;
+      -moz-appearance: none;
+    }
+  </style>
+</head>
+<body>
+
+  <form action="https://echo.htmlacademy.ru/" method="get">
+    <fieldset>
+      <legend>Стоимость</legend>
+
+      <div class="range-slider">
+
+        <div class="range-scale">
+          <div class="range-bar" style="left: 20px; width: 200px">
+            <button class="toggle toggle-min">
+              <!-- <span class="vsualitty-hidden">от</span> -->
+            </button>
+            <button class="toggle toggle-max">
+              <!-- <span class="vsualitty-hidden">до</span> -->
+            </button>
+          </div>
+        </div>
+
+        <div class="range-wrapper">
+          <label for="">
+            от
+            <input class="input" type="number" value="20" name="min-price">
+          </label>
+          <label for="">
+            <input class="input" type="number" value="200" name="max-price">
+            руб
+          </label>
+        </div>
+
+      </div>
+    </fieldset>
+  </form>
+</body>
+</html>
