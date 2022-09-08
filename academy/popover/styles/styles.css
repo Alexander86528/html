@@ -1,0 +1,26 @@
+/* 
+.visuallyhidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+ */
+.popover-container {
+  /* display: none; */
+  box-sizing: border-box;
+  width: 1000px;
+  min-height: 500px;
+  outline: 2px solid #0b1385;
+  color: #242424;
+  background-color: #ddc0c0;
+  /* box-shadow: 0 18px 40px rgba(79, 70, 60, 0.16); */
+}
+
+.popover-container-open {
+  display: block;
+}
