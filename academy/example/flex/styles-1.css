@@ -1,0 +1,31 @@
+
+.room {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.rug {
+  display: flex;
+  /* box-sizing: border-box; */
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  height: 200px;
+  width: 200px;
+  /* padding-top: 90px; */
+  /* text-align: center; */
+  /* outline: 2px solid #003686; */
+}
+
+.rudolf{
+  outline: 2px solid #015ee9;
+}
+
+.keks {
+  outline: 2px solid #d60303;
+}
+
+.simeon {
+  outline: 2px solid #00af09;
+}
