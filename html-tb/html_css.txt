@@ -22,3 +22,7 @@ origin - источник
 
 rect - прямой
 repeat - повторять
+initial - исходный
+background - фон
+bottom - нижний
+scrpll - прокрутка
