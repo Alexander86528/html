@@ -26,3 +26,5 @@ initial - исходный
 background - фон
 bottom - нижний
 scrpll - прокрутка
+origin - источник
+clip - обрезать
