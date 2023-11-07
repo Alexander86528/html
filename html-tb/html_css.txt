@@ -25,6 +25,10 @@ repeat - повторять
 initial - исходный
 background - фон
 bottom - нижний
-scrpll - прокрутка
-origin - источник
+scroll - прокрутка
 clip - обрезать
+outline - контур
+    border-image-source
+source - источник
+    border-image-slice
+slice - кусочек
